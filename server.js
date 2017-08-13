@@ -18,6 +18,10 @@ app.get("/", function (request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
 
+app.post('/upload', upload.single('file'), function( request, response ){
+  console.log(request.files);
+});
+
 app.get("/dreams", function (request, response) {
   response.send(dreams);
 });
