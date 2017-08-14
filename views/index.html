@@ -28,8 +28,8 @@
     <main>
       <p class="bold">Oh hi,</p>
       <p>Tell me your hopes and dreams:</p>
-      <form>
-        <input type="text" maxlength="100" placeholder="Dreams!">
+      <form method="post" enctype="multipart/form-data">
+        <input type="file" name="upl" placeholder="No file chosen">
         <button type="submit">Submit</button>
       </form>
       <section class="dreams">

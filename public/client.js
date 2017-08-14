@@ -16,7 +16,7 @@ $(function() {
   $('form').submit(function(event) {
     event.preventDefault();
     var dream = $('input').val();
-    $.post('/upload?' + $.param({dream: dream}), function() {
+    $.post('/upload', function() {
       $('<li></li>').text(dream).appendTo('ul#dreams');
       $('input').val('');
       $('input').focus();
