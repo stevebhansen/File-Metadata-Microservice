@@ -18,7 +18,7 @@ app.get("/", function (request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
 
-app.post('/upload', upload.single('file'), function( request, response ){
+app.post('/upload', upload.single('upl'), function( request, response ){
   console.log(request.files);
 });
 
