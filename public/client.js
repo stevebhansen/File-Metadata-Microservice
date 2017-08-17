@@ -4,7 +4,8 @@
 // by default, you've got jQuery,
 // add other scripts at the bottom of index.html
 
-$('#form-file').submit(function(event) {
+$('form').submit(function(event) {
+  event.preventDefault();
   console.log('hello world :o');
   event.preventDefault();
   $.post('https://smooth-name.glitch.me/upload', function() {
