@@ -7,7 +7,7 @@
 $('#form-file').submit(function(event) {
   console.log('hello world :o');
   event.preventDefault();
-  $.post('/upload', function() {
+  $.post('https://smooth-name.glitch.me/upload', function() {
     $('#form-file').submit();
   });
 });
