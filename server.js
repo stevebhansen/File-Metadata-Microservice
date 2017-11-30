@@ -17,9 +17,14 @@ app.use(express.static('public'));
 app.get("/", function (request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
-
+/*
 app.post('/upload', upload.single('upl'), function( request, response ){
   console.log(request.files);
+  response.end();
+});*/
+app.post('/upload', upload.single('upl'), function( request, response ){
+  console.log('found me');
+  response.end();
 });
 
 // listen for requests :)
