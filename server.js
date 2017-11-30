@@ -23,7 +23,8 @@ app.post('/upload', upload.single('upl'), function( request, response ){
   response.end();
 });*/
 app.post('/upload', upload.single('upl'), function( request, response ){
-  console.log('found me');
+  console.log('hello');
+  console.log(request.file);
   response.end();
 });
 

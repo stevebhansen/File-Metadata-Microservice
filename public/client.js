@@ -6,7 +6,7 @@
 
 $('form').submit(function(event) {
   event.preventDefault();
-  var file = $('form').prop('upl');
+  var file = $('input').val();
   console.log(file);
   event.preventDefault();
   $.post('/upload',{ upl: file });
