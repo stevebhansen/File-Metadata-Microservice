@@ -9,7 +9,9 @@ $('form').submit(function(event) {
   var file = $('input').val();
   console.log(file);
   event.preventDefault();
-  $.post('/upload',{ upl: file });
+  $.post('https://smooth-name.glitch.me/upload',{ upl: file }, function(result) {
+    console.log(result);
+  });
   
 });
 

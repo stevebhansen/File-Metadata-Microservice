@@ -25,7 +25,7 @@ app.post('/upload', upload.single('upl'), function( request, response ){
 app.post('/upload', upload.single('upl'), function( request, response ){
   console.log('hello');
   console.log(request.file);
-  response.end();
+  response.send(request.file);
 });
 
 // listen for requests :)
