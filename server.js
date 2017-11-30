@@ -23,9 +23,8 @@ app.post('/upload', upload.single('upl'), function( request, response ){
   response.end();
 });*/
 app.post('/upload', upload.single('upl'), function( request, response ){
-  console.log('hello');
-  console.log(request.file);
-  response.send(request.file);
+  
+  response.json(request.file);
 });
 
 // listen for requests :)
