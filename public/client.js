@@ -6,7 +6,8 @@
 
 $('form').submit(function(event) {
   event.preventDefault();
-  var file = $('input').val();
+  
+  var file = $('input[type=file]').val();
   console.log(file);
   event.preventDefault();
   

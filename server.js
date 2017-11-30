@@ -23,7 +23,7 @@ app.post('/upload', upload.single('upl'), function( request, response ){
   response.end();
 });*/
 app.post('/upload', upload.single('upl'), function( request, response ){
-  
+  console.log(request.file);
   response.send();
 });
 
