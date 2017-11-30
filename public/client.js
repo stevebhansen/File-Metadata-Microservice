@@ -9,8 +9,10 @@ $('form').submit(function(event) {
   var file = $('input').val();
   console.log(file);
   event.preventDefault();
-  $("#size").append("well this isn't working");
+  
   $.post('https://smooth-name.glitch.me/upload',{ upl: file }, function(result) {
+    console.log(result);
+    $("#size").append("well this isn't working");
     $("#size").append(result);
   });
   
