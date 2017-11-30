@@ -4,8 +4,7 @@
 // init project
 var express = require('express');
 var multer  = require('multer');
-var storage = multer.memoryStorage()
-var upload = multer({ storage: storage });
+var upload = multer({ dest: 'uploads/' });
 var app = express();
 
 // we've started you off with Express, 
@@ -24,9 +23,8 @@ app.post('/upload', upload.single('upl'), function( request, response ){
   response.end();
 });*/
 app.post('/upload', upload.single('upl'), function( request, response ){
-  var file = request.file;
-  console.log(file.filename);
-  response.send('nice work');
+  
+  response.send();
 });
 
 // listen for requests :)
