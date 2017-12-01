@@ -24,7 +24,7 @@ app.post('/upload', upload.single('upl'), function( request, response ){
 });*/
 app.post('/upload', upload.single('upl'), function( request, response ){
   console.log(request.file);
-  response.send({hi: "steve"});
+  response.send({"size": request.file.size});
 });
 
 // listen for requests :)
