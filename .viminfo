@@ -21,12 +21,18 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/uploads283695150
+'0  1  0  ~/.gitignore
+'1  1  0  ~/uploads283695150
 
 # Jumplist (newest first):
+-'  1  0  ~/.gitignore
+-'  1  0  ~/uploads283695150
 -'  1  0  ~/uploads283695150
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	1	0
 
 > ~/uploads283695150
 	"	1	0
