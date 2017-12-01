@@ -1,0 +1,7 @@
+#Files in uploads directory#
+############################
+uploads/
+
+#######npm modules#########
+node_modules
+###########################

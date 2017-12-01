@@ -8,6 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq
 :q
 
 # Search String History (newest to oldest):
@@ -21,18 +22,43 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/.gitignore
-'1  1  0  ~/uploads283695150
+'0  7  26  ~/.gitignore
+'1  1  0  ~/.gitignore
+'2  2  27  ~/.gitignore
+'3  1  0  ~/uploads283695150
 
 # Jumplist (newest first):
+-'  7  26  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  2  27  ~/.gitignore
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
+-'  1  0  ~/uploads283695150
 -'  1  0  ~/uploads283695150
 -'  1  0  ~/uploads283695150
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	1	0
+	"	7	26
+	^	7	27
+	.	7	26
+	+	1	28
+	+	2	27
+	+	7	10
+	+	5	26
+	+	7	26
 
 > ~/uploads283695150
 	"	1	0
